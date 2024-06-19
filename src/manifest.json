@@ -1,0 +1,20 @@
+{
+    "name": "YouTube Downloader",
+    "version": "1.0",
+    "manifest_version": 2,
+    "author" : "Pankaj Suthar",
+    "description": "Download from YouTube",
+    "page_action": {
+        "default_title": "Download from YouTube",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "downloads",
+        "activeTab",
+        "declarativeContent"
+    ],
+    "background" : {
+        "scripts" : ["background.js"],
+        "persistent" : false
+    }
+}
